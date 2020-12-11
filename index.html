@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/adaptive-menu.css">
+	<link rel="stylesheet" href="css/adaptive.css">
+	<link rel="stylesheet" href="css/down-menu.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/preloader.css">
+	<title>Document</title>
+</head>
+<content>
+  	<input id="hamburger" class="hamburger" type="checkbox"/>
+  	<label class="hamburger" for="hamburger">
+    	<i></i>
+   		<text>
+	      	<open>Меню</open>
+    	</text>
+  	</label>
+  	<section class="drawer-list">
+       	<ul>
+         	<li><a href="#header">New order</a></li>
+         	<li><a href="#tarif">Services</a></li>
+          	<li><a href="#services">Orders</a></li>
+         	<li><a href="#poisk">Add funds</a></li>
+         	<li><a href="#reviews">API</a></li>
+         	<li><a href="#reviews"><img src="img/russia.svg" alt=""></a></li>
+         	<li><a href="#reviews" class="green">$0.00</a></li>
+         	<li><a href="#reviews" class="green">Account</a></li>
+         	<li><a href="#reviews" class="green">Logout</a></li>
+      	</ul>
+    </section>
+</content>
+<body>
+	<header class="header">
+	<div class="preloader" id="preloader">
+	<p>Пожалуйста, подождите</p>
+	<div class="loader">
+		<div class="wrapper">
+		  <span class="ball"></span>
+		  <span class="ball"></span>
+		  <span class="ball"></span>
+		  <span class="ball"></span>
+		</div>
+		<div class="drop-shadow"></div>
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+		  <defs>
+		    <filter id="ball">
+		      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+		      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="ball" />
+		      <feBlend in="SourceGraphic" in2="ball" />
+		  	</filter>
+		</defs>
+		</svg>
+	</div>
+	</div>
+		<div class="container">
+			<div class="header-body">
+				<nav>
+					<ul class="menu">
+						<li class="menu__item">
+							<a href="#" class="menu__link">New order</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">Services</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">Orders</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">Add funds</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">API</a>
+						</li>
+					</ul>
+				</nav>
+				<a href="#"><img src="img/russia.svg" alt="Russia" class="russia"></a>
+				<div class="data-menu">
+					<a href="#">$0.00</a>
+					<a href="#">Account</a>
+					<a href="#">Logout</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="payment">
+		<div class="container">
+			<div class="payment-wrapper">
+				<div class="payment-block">
+					<h3>Метод</h3>
+					<div class="payment-window">
+						<p class="rep">PayPal</p>
+						<img src="img/strelka.svg" alt="" class="strelka">
+						<div class="payment-down">
+							<div class="drop-down down-one">
+								<p>Сбербанк</p>
+							</div>
+							<div class="drop-down down-two">
+								<p>Киви</p>
+							</div>
+							<div class="drop-down down-three">
+								<p>Payeer</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="rate-block">
+					<h3>Ставка</h3>
+					<div class="rate-window">
+						<p>500</p>
+					</div>
+				</div>
+				<div class="deposit-button">
+					<a href="#" class="deposit-btn">Пополнить</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.payment-down-active {
+	display: block !important;
+}
+
+.payment-window-active {
+	border-radius: 5px 5px 0 0;
+}
+
+.strelka-active {
+	transform: rotate(180deg);
+}

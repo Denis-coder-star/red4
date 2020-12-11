@@ -1,0 +1,67 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 968px !important;
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px !important;
+    padding: 0 15px;
+  }
+  .header-body {
+    display: block !important;
+    text-align: center;
+  }
+  .menu__item {
+    margin: 0 auto;
+  }
+  .menu__item:first-child {
+  	margin-left: 20px !important;
+  }
+  .russia {
+    margin-right: 0 !important;
+    margin-top: 20px;
+  }
+  .data-menu a {
+    margin-left: 0 !important;
+  }
+  .data-menu a:first-child {
+    margin-right: 80px;
+  }
+  .data-menu a:last-child {
+    margin-left: 80px !important;
+  }
+  .data-menu {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 540px !important;
+    padding: 0 15px;
+  }
+  .menu,
+  .data-menu,
+  .russia {
+    display: none !important;
+  }
+  .header {
+    padding: 35px 0 !important;
+  }
+  content {
+    opacity: 1 !important;
+  }
+}
+@media screen and (max-width: 578px) {
+  .container {
+    width: 90% !important;
+    padding: 0 15px;
+  }
+  .deposit-btn {
+    margin: 0 auto;
+  }
+  .preloader p {
+    top: 70% !important;
+  }
+}
